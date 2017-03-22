@@ -9,7 +9,7 @@
 	font-weight: 500;
 	line-height: 26.4px;
 	color: #333;
-	text-shadow: 2px 2px #aaa;
+	text-shadow: 2px 2px #ccc;
 }
 
 #game_page{position: relative; height: 100%}
@@ -31,6 +31,10 @@
 	border: 1px solid #aaa;
 }
 
+.storage_box_highlight {
+	border: 1px solid #aa0;
+}
+
 .storage_header {
 	position: relative;
 	width: 100%;
@@ -48,7 +52,15 @@
 	position: absolute;
 	top: 10px;
 	left: 0px;
-	width: 60%;
+	width: 38%;
+	height: 75%;
+}
+
+.menu{
+	position: absolute;
+	top: 10px;
+	left: 40%;
+	width: 18%;
 	height: 75%;
 }
 
@@ -57,8 +69,36 @@
 	position: absolute;
 	top: 10px;
 	right: 0px;
-	width: 40%;
+	width: 38%;
 	height: 50%;
+}
+
+.toolbox_cashbox {
+	position: relative;
+}
+
+.cash {
+	position: relative;
+}
+
+.cash_icon {
+	display: inline;
+}
+
+.cash_amount {
+	display: inline;
+}
+
+.toolbox_header {
+	position: relative;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	border-bottom: 1px solid #aaa;
+	font-size: 32px;
+}
+
+.toolbox_contents {
+	position: relative;
 }
 
 .toolbar {
@@ -66,11 +106,46 @@
 }
 
 .tool_button {
-	font-size: 32px;
+	position: relative;
+	font-size: 24px;
+}
+
+.tool_button_text {
+	position: relative;
+}
+
+.tool_button_press{
+	top: 2px;
+	left: 2px;
+	text-shadow: none;
 }
 
 .tool_button_highlight {
 	text-shadow: 2px 2px #ffa !important;
+}
+
+.tool_radio{
+	position: relative;
+	font-size: 24px;
+}
+
+.tool_radio_option{
+	display: inline;
+	color: #999;
+	margin-left: 15px;
+}
+
+.tool_radio_selected{
+	color: #000;
+}
+
+.sale_item{
+	margin-bottom: 10px
+}
+
+.sale_sub{
+	font-size: 20px !important;
+	margin-left: 25px;
 }
 
 .tooltip {
@@ -78,7 +153,7 @@
 	position: absolute;
 	top: 50%;
 	right: 0px;
-	width: 40%;
+	width: 38%;
 }
 
 .cell {
